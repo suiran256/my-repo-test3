@@ -4,6 +4,7 @@ on:
     inputs:
       log-level:
         type: choice
+        default: info
         options:
           - info
           - warn
